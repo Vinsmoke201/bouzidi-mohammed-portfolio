@@ -1,4 +1,5 @@
 import ClientReviewsSection from "./(components)/client-reviews-section/ClientReviewsSection";
+import FooterSection from "./(components)/footer-section/FooterSection";
 import PortfolioSection from "./(components)/portfolio-section/PortfolioSection";
 import ServiceSection from "./(components)/service-section/ServiceSection";
 import TopSection from "./(components)/top-section/TopSection";
@@ -10,6 +11,7 @@ export default function Home() {
       <ServiceSection />
       <ClientReviewsSection />
       <PortfolioSection />
+      <FooterSection />
     </div>
   );
 }

@@ -2,9 +2,8 @@
 
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { FiStar } from 'react-icons/fi';
 import { useInView } from "react-intersection-observer";
-import Carousel from "../shared/Carousel";
+import RollingGallery from "../shared/Carousel";
 
 const ClientReviewsSection = () => {
   const { t } = useTranslation("client-reviews");
@@ -15,8 +14,7 @@ const ClientReviewsSection = () => {
         title: review.client_name,
         description: review.testimonial,
         id: index + 1,
-        profileImage: review.photoUrl,
-        icon: <FiStar className="carousel-icon" />
+        image: review.photoUrl || 'https://via.placeholder.com/300x120', // Fallback image
       }))
     : [];
 
@@ -30,7 +28,7 @@ const ClientReviewsSection = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={titleInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6 }}
-        className="mx-auto mt-[6rem] text-4xl"
+        className="mx-auto mt-[6rem] text-4xl text-white"
       >
         {t("title")}
       </motion.h1>
@@ -40,17 +38,14 @@ const ClientReviewsSection = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={carouselInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6, delay: 0.2 }}
-        className="relative w-fit h-[40vh] mx-auto mt-[8rem]"
+        className="relative w-full h-[50vh] mx-auto mt-[8rem]"
       >
         {carouselItems.length > 0 ? (
-          <Carousel
+          <RollingGallery
             items={carouselItems}
-            baseWidth={800}
             autoplay={true}
             autoplayDelay={3000}
             pauseOnHover={true}
-            loop={true}
-            round={false}
           />
         ) : (
           <p className="text-white">No reviews available.</p>
