@@ -1,0 +1,106 @@
+{
+  "greeting": "Hello",
+  "experienceYear": "Year of experience",
+  "client": "Clients",
+  "getCV": "Get my resume",
+  "completProject": "Completed projects",
+  "achievments": "Achievments",
+  "introducing": "my name is",
+  "firstname": "Mohamed",
+  "lastname": "BOUZIDI",
+  "projetTitle": "My Projects",
+  "profession": "UX/UI Designer",
+  "about": "I am Mohamed Bouzidi, a passionate UX/UI designer from Morocco. I create user-centered, intuitive, and visually engaging digital experiences using Figma and industry-standard tools. With practical experience in broadcasting design at SNRT, freelance work, and my journey at Netopia (first as a paid intern, then as a full-time designer), I strive to bridge functionality with aesthetics.",
+  "services": [
+    {
+      "name": "UX/UI Design",
+      "description": "Crafting intuitive and user-centered digital interfaces that enhance user experience and engagement, using tools like Figma to create wireframes, prototypes, and high-fidelity designs."
+    },
+    {
+      "name": "Product Design",
+      "description": "Designing innovative and functional digital products by combining user research, prototyping, and iterative testing to ensure seamless functionality and aesthetic appeal."
+    },
+    {
+      "name": "Branding",
+      "description": "Developing cohesive brand identities, including logos, typography, and visual guidelines, to create memorable and consistent brand experiences across all touchpoints."
+    }
+  ],
+  "skills": [
+    "UX/UI Design",
+    "User Research",
+    "Wireframing",
+    "Prototyping",
+    "Information Architecture",
+    "Graphic Design",
+    "Brand Identity & Logo Design",
+    "Figma",
+    "Photoshop",
+    "Illustrator",
+    "Creative Thinking",
+    "Attention to Detail"
+  ],
+  "languages": [
+    "Arabic (native)",
+    "French (advanced)",
+    "English (fluent)"
+  ],
+  "education": [
+    {
+      "institution": "Institut Spécialisé de Technologie Appliquée NTIC, Rabat",
+      "degree": "Diploma in Digital Design (UX Design)",
+      "years": "2022 - 2024"
+    },
+    {
+      "institution": "Lycée Sefwa, Salé",
+      "degree": "Baccalaureate in Life and Earth Sciences (SVT)",
+      "years": "2021 - 2022"
+    }
+  ],
+  "work_experience": [
+    {
+      "role": "UX/UI Designer",
+      "company": "Netopia",
+      "location": "Morocco",
+      "start_date": "July 2025",
+      "end_date": "Present",
+      "description": "Full-time UX/UI Designer focusing on user-centered digital products and interface design."
+    },
+    {
+      "role": "UX/UI Design Intern (Paid Internship)",
+      "company": "Netopia",
+      "location": "Morocco",
+      "start_date": "February 17, 2025",
+      "end_date": "June 2025",
+      "description": "Worked as a paid intern, contributing to real client projects, developing skills in user experience and interface design."
+    },
+    {
+      "role": "Freelance Designer",
+      "company": "Self-employed",
+      "start_date": "October 2024",
+      "end_date": "January 2025",
+      "description": "Created graphic designs, brochures, business cards, and custom branding solutions for various clients."
+    },
+    {
+      "role": "Infographic Design Intern",
+      "company": "SNRT (Société Nationale de Radiodiffusion et de Télévision)",
+      "location": "Rabat, Morocco",
+      "start_date": "April 2024",
+      "end_date": "June 2024",
+      "description": "Worked in the Infographics department of 'La Quatrième' Channel, producing visual content for TV broadcasts."
+    }
+  ],
+  "interests": [
+    "Designing apps and websites",
+    "Entrepreneurship",
+    "Technology & design",
+    "Bird care (canaries, budgies, cockatiels)",
+    "Gaming"
+  ],
+  "location": "Salé, Morocco",
+  "contact": {
+    "email": "mohamedbouzidi1110@gmail.com",
+    "phone": "+212608483107",
+    "linkedin": "linkedin.com/in/mohamed-bouzidi",
+    "portfolio": "your-portfolio-link.com"
+  }
+}

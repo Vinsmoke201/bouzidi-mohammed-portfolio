@@ -1,0 +1,23 @@
+{
+  "title": "Écoutez mes clients",
+  "reviews": [
+    {
+      "client_name": "Sarah El Amrani",
+      "photoUrl": "/OIP.webp",
+      "project": "Refonte d'application mobile",
+      "testimonial": "Mohamed a transformé notre application mobile obsolète en une expérience élégante et conviviale. Son attention aux détails et sa capacité à comprendre les besoins de nos utilisateurs ont rendu le processus de refonte fluide et efficace. Je le recommande vivement !"
+    },
+    {
+      "client_name": "Abdelilah AYACHE",
+      "photoUrl": "/abdelilah-ayache.jpg",
+      "project": "Développement d'identité de marque",
+      "testimonial": "Travailler avec Mohamed a été un tournant pour notre startup. Il a créé une identité de marque cohérente qui a parfaitement capturé notre vision. Sa créativité et son professionnalisme ont dépassé nos attentes."
+    },
+    {
+      "client_name": "Lina Bensouda",
+      "photoUrl": "/OIP.webp",
+      "project": "Conception UX pour site e-commerce",
+      "testimonial": "L'expertise de Mohamed en design UX a considérablement amélioré l'engagement des utilisateurs sur notre site web. Ses wireframes et prototypes étaient parfaits, et il était toujours ouvert aux retours. Travail exceptionnel !"
+    }
+  ]
+}

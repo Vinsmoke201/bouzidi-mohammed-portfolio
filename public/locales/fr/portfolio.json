@@ -1,0 +1,106 @@
+{
+  "greeting": "Bonjour",
+  "experienceYear": "Années d'expérience",
+  "client": "Clients",
+  "completProject": "Projets réalisés",
+  "getCV": "Obtenir mon CV",
+  "achievments": "Réalisations",
+  "introducing": "je m'appelle",
+  "firstname": "Mohamed",
+  "lastname": "BOUZIDI",
+  "projetTitle": "Mes projets",
+  "profession": "Designer UX/UI",
+  "about": "Je suis Mohamed Bouzidi, un designer UX/UI passionné originaire du Maroc. Je conçois des expériences numériques intuitives et centrées sur l’utilisateur avec Figma et des outils professionnels. Mon parcours comprend une expérience en infographie télévisée chez SNRT, des projets en freelance, et depuis février 2025, une collaboration avec Netopia (d’abord en tant que stagiaire rémunéré, puis en tant que designer à temps plein).",
+  "services": [
+    {
+      "name": "Design UX/UI",
+      "description": "Création d'interfaces numériques intuitives et centrées sur l'utilisateur, en utilisant des outils comme Figma pour concevoir des wireframes, des prototypes et des designs haute fidélité."
+    },
+    {
+      "name": "Design de Produit",
+      "description": "Conception de produits numériques innovants et fonctionnels grâce à la recherche utilisateur, au prototypage et à des tests itératifs pour garantir une fonctionnalité fluide et un attrait esthétique."
+    },
+    {
+      "name": "Branding",
+      "description": "Développement d'identités de marque cohérentes, incluant logos, typographies et lignes directrices visuelles, pour créer des expériences de marque mémorables et uniformes sur tous les points de contact."
+    }
+  ],
+  "skills": [
+    "Design UX/UI",
+    "Recherche utilisateur",
+    "Wireframing",
+    "Prototypage",
+    "Architecture de l’information",
+    "Design graphique",
+    "Identité visuelle & conception de logos",
+    "Figma",
+    "Photoshop",
+    "Illustrator",
+    "Créativité",
+    "Sens du détail"
+  ],
+  "languages": [
+    "Arabe (langue maternelle)",
+    "Français (avancé)",
+    "Anglais (courant)"
+  ],
+  "education": [
+    {
+      "institution": "Institut Spécialisé de Technologie Appliquée NTIC, Rabat",
+      "degree": "Diplôme en Design Digital (UX Design)",
+      "years": "2022 - 2024"
+    },
+    {
+      "institution": "Lycée Sefwa, Salé",
+      "degree": "Baccalauréat en Sciences de la Vie et de la Terre (SVT)",
+      "years": "2021 - 2022"
+    }
+  ],
+  "work_experience": [
+    {
+      "role": "Designer UX/UI",
+      "company": "Netopia",
+      "location": "Maroc",
+      "start_date": "Juillet 2025",
+      "end_date": "Présent",
+      "description": "Designer UX/UI à temps plein, en charge de projets digitaux centrés sur l’expérience utilisateur et la conception d’interfaces."
+    },
+    {
+      "role": "Stagiaire UX/UI Designer (stage rémunéré)",
+      "company": "Netopia",
+      "location": "Maroc",
+      "start_date": "17 février 2025",
+      "end_date": "Juin 2025",
+      "description": "Participation à des projets réels pour développer des compétences en expérience utilisateur et design d’interfaces."
+    },
+    {
+      "role": "Designer Freelance",
+      "company": "Indépendant",
+      "start_date": "Octobre 2024",
+      "end_date": "Janvier 2025",
+      "description": "Création de brochures, cartes de visite, supports visuels et identités graphiques pour divers clients."
+    },
+    {
+      "role": "Stagiaire Infographiste",
+      "company": "SNRT (Société Nationale de Radiodiffusion et de Télévision)",
+      "location": "Rabat, Maroc",
+      "start_date": "Avril 2024",
+      "end_date": "Juin 2024",
+      "description": "Production de contenus visuels pour les émissions télévisées au sein du département infographie de la chaîne 'La Quatrième'."
+    }
+  ],
+  "interests": [
+    "Conception d’applications et de sites web",
+    "Entrepreneuriat",
+    "Technologie & design",
+    "Élevage et soins des oiseaux (canaris, perruches, cockatiels)",
+    "Jeux vidéo"
+  ],
+  "location": "Salé, Maroc",
+  "contact": {
+    "email": "mohamedbouzidi1110@gmail.com",
+    "phone": "+212608483107",
+    "linkedin": "linkedin.com/in/mohamed-bouzidi",
+    "portfolio": "votre-portfolio-link.com"
+  }
+}
