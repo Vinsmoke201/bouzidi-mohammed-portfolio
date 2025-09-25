@@ -76,7 +76,7 @@ const renderStars = (rating = 5) => {
 const GalleryItem = ({ item, index, faceCount, faceWidth, radius }) => {
   return (
     <div
-      className="group absolute bg-[#000B20] border-2 border-[#1059AD] flex flex-col h-[70%] items-center justify-center p-[8%] [backface-visibility:hidden] md:p-[6%]"
+      className="group absolute bg-[#000B20] border-2 border-[#1059AD] flex flex-col h-[44%] items-center justify-center p-[8%] [backface-visibility:hidden] md:p-[6%]"
       style={{
         width: `${faceWidth}px`,
         transform: `rotateY(${(360 / faceCount) * index}deg) translateZ(${radius}px)`,

@@ -38,7 +38,7 @@ const ClientReviewsSection = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={carouselInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6, delay: 0.2 }}
-        className="relative w-full h-[50vh] mx-auto mt-[8rem]"
+        className="relative w-full h-[70vh] mx-auto mt-[8rem]"
       >
         {carouselItems.length > 0 ? (
           <RollingGallery

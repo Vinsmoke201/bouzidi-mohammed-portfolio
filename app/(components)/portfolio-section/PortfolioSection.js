@@ -4,13 +4,48 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useInView } from "react-intersection-observer";
 
-const projects = Array(6).fill({
-  title: "Coffee Shop Menu Design",
+const projects = new Array({
+  title: "Teaeft",
   description:
     "A clean, inviting menu design that reflects the cozy vibe of a coffee shop while making choices easy and enjoyable.",
-  image: "project.png",
-  link: "https://www.figma.com/design/eNs94iYmFc0mvwDcCtZUPS/Untitled?node-id=4-6&t=11rnVH1Og3g7ugTE-0",
-});
+  image: "teaeft.png",
+  link: "https://www.figma.com/design/aN0nKX2eVyj5DI5iBpmji7/MED?node-id=0-1&p=f&t=RckAjb76YOiaNewo-0",
+},
+  {
+    title: "Woosh motorcycle driver app design",
+    description: "A clean, a look alike project of indrive but for motor cycles",
+    image: "woosh.png",
+    link: "https://www.figma.com/design/wMlpWNbw4wkoFyQybQaa2Q/Woosh?node-id=2-23&t=9zZfOr2b1rUyvdKd-1"
+  },
+  {
+    title: "Social Security",
+    description:
+      "A clean, inviting menu design that reflects the cozy vibe of a coffee shop while making choices easy and enjoyable.",
+    image: "social-security.png",
+    link: "https://www.figma.com/design/WYAT4lOrSRFtiDxzp7Q5Py/SOCIAL-SECURITY-ADMINISTRATION?node-id=0-1&p=f&t=a8OpBX2gT54wCFDt-0",
+  },
+  {
+    title: "Cinema",
+    description:
+      "A clean, design for an app to show all the movies in it.",
+    image: "cinema.png",
+    link: "https://www.figma.com/design/EAMWMCcd2OJANhqirPNqpJ/Cinema-L-----FIRST-DESIGN-EVER?node-id=12-1325&t=yYkZ4Q6riWTqrtz5-1",
+  },
+  {
+    title: "Billetrie application CAN-25",
+    description:
+      "A clean, design for an app to show all the movies in it.",
+    image: "billetrie-app.png",
+    link: "https://www.figma.com/design/gzrcdWnid2sZg0YnRqPbs7/RANDOM-TESTS?node-id=0-1&t=X9wyNaDGqwgIdGIu-1",
+  },
+  {
+    title: "MNTN",
+    description:
+      "A clean, design for an app to show all the movies in it.",
+    image: "mntn.png",
+    link: "https://www.figma.com/design/1NyTr2LsdCFI7gNdOKJMiA/IMPROVE-MNTN?node-id=0-1&t=Dmjna9MSr6vm2zGw-1",
+  },
+);
 
 // New component for individual project
 const ProjectCard = ({ project, index }) => {

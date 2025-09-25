@@ -70,7 +70,7 @@ const FooterSection = () => {
             {/* Footer Bottom */}
             <div className="w-full max-w-7xl mt-8 border-t border-gray-700 pt-6 flex justify-center">
                 <span className="text-gray-400 text-sm md:text-base">
-                    Created By Abdelilah AYACHE © 2025
+                    Designed by Mohamed Bouzidi Created By Abdelilah AYACHE © 2025
                 </span>
             </div>
         </section>
