@@ -71,7 +71,7 @@ const ProjectCard = ({ project, index }) => {
           />
         </a>
         <h1 className="mx-auto text-xl font-bold">{project.title}</h1>
-        <p className="text-gray-400 mx-auto w-[80%] text-justify">{project.description}</p>
+        <p className="text-white/75 mx-auto w-[80%] text-justify">{project.description}</p>
       </div>
       <img
         src={project.image}

@@ -79,9 +79,9 @@ const TopSection = () => {
             >
                 <nav className="w-full h-full flex flex-row">
                     <Image
-                        src="/Group 79.png"
-                        width={32} // Approximate width based on h-[2rem]
-                        height={32}
+                        src="/logo.svg"
+                        width={48} // Approximate width based on h-[2rem]
+                        height={48}
                         className="my-auto ml-[4rem]"
                         alt="Logo"
                     />
