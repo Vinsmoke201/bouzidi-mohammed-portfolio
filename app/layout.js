@@ -34,7 +34,7 @@ export const metadata = {
     description:
       "Discover the creative journey of Mohamed Bouzidi, from SNRT to Netopia, crafting intuitive and engaging digital experiences.",
     images: ["/profile.jpg"],
-    url: "https://your-portfolio-link.com",
+    url: "https://bouzidi-mohamed.vercel.app/",
   },
 };
 

@@ -23,7 +23,7 @@ const projects = [
     title: "MNTN",
     description:
       "Redesign of a hiking site with bold imagery, dark theme, and clean grid-based layout.",
-    image: "MacBook #13.svg",
+    image: "mntn.svg",
     link: "https://www.figma.com/design/1NyTr2LsdCFI7gNdOKJMiA/IMPROVE-MNTN?node-id=0-1&t=Dmjna9MSr6vm2zGw-1",
   },
   {
@@ -60,7 +60,7 @@ const ProjectCard = ({ project, index }) => {
       initial={{ opacity: 0, y: 30 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6, delay: index * 0.1 }}
-      className="relative w-full h-[30vh] col-span-1 rounded-lg overflow-hidden group border-[#01205a]"
+      className="relative w-full h-[30vh] col-span-1 rounded-lg overflow-hidden group "
     >
       <div className="absolute inset-[50%] group-hover:inset-0 group-hover:w-full group-hover:h-full w-0 h-0 opacity-0 group-hover:opacity-100 bg-black/30 backdrop-blur-md flex flex-col z-10 gap-6 transition-all duration-1000">
         <a href={project.link} target="_blank" rel="noopener noreferrer">
